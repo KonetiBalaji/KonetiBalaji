@@ -64,7 +64,7 @@ I love automating workflows, contributing to open-source, and integrating cloud-
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 ### 🤖 AI/ML
 - [**AI-Powered Email Assistant**](https://github.com/KonetiBalaji/AI_Powered_Email_Assistant): Smart spam detection & summarization using NLP
@@ -88,10 +88,10 @@ I love automating workflows, contributing to open-source, and integrating cloud-
 ---
 
 ## 🏆 Certifications
-- 🟧 **AWS Certified Machine Learning – Specialty**  
-- 🧠 **IBM Data Science Professional Certificate**  
-- 🔍 **Azure AI Fundamentals (AI-900)**  
-- 🎓 **Coursera Deep Learning Specialization**
+- **AWS Certified Machine Learning – Specialty**  
+- **IBM Data Science Professional Certificate**  
+- **Azure AI Fundamentals (AI-900)**  
+- **Coursera Deep Learning Specialization**
 
 ---
 
@@ -107,7 +107,8 @@ I love automating workflows, contributing to open-source, and integrating cloud-
 ## 🔗 Connect with Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/balaji-koneti/)  
-📬 Let’s collaborate! Feel free to connect via LinkedIn or explore more on my [GitHub](https://github.com/KonetiBalaji).
+
+Let’s collaborate! Feel free to connect via LinkedIn or explore more on my [GitHub](https://github.com/KonetiBalaji).
 
 ---
 
