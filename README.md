@@ -1,4 +1,5 @@
 # Balaji Koneti
+
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=40&pause=1000&color=2E9CDB&center=true&vCenter=true&width=600&height=100&lines=Data+Scientist;AI%2FML+Engineer;Full-Stack+Developer" alt="Typing SVG" />
 </div>
@@ -7,116 +8,108 @@
   <img src="https://komarev.com/ghpvc/?username=KonetiBalaji&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
 </div>
 
-# 💫 About Me:
-👋 Hi there! I'm Balaji Koneti, a passionate Data Scientist and Full-Stack Developer with expertise in AI/ML and cloud technologies.
+---
 
-🔭 **Current Focus**: Developing an AI-Powered Mood Prediction System that provides personalized insights based on daily routines and behavioral patterns.
-
-🎯 **Professional Goals**:
-- Building innovative AI/ML solutions for real-world problems
-- Contributing to open-source data visualization projects
-- Mastering advanced algorithms and cloud computing technologies
-
-🌱 **Learning Journey**:
-- Deep diving into Machine Learning and AWS Cloud Computing
-- Exploring advanced algorithms and their practical applications
-- Enhancing skills in workflow automation and AI integration
-
-💡 **Expertise**:
-- Python-based workflow automation and AI solutions
-- Data visualization and analysis
-- Full-stack development with modern technologies
-- Cloud architecture and deployment
-
-🤝 **Collaboration Interests**:
-- Data visualization projects
-- AI/ML research and development
-- Open-source contributions
-- Cloud computing solutions
-
-⚡ **Fun Fact**: I combine my passion for coding with baking - there's something satisfying about creating both perfect code and delicious treats!
-
-## 📊 Project Statistics
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=KonetiBalaji&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KonetiBalaji&theme=radical" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KonetiBalaji&layout=compact&theme=radical" alt="Top Languages" />
-</div>
-
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/balaji-koneti/) 
-
-# 💻 Tech Stack:
-
-## 🛠️ Programming Languages
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-## 🤖 AI/ML Frameworks
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
-
-## 📊 Data Science Tools
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Jupyter](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-%230C55A5.svg?style=for-the-badge&logo=seaborn&logoColor=white)
-
-## ☁️ Cloud & DevOps
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
-
-## 🗄️ Databases
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
-
-## 🛠️ Development Tools
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-# 🚀 Projects:
-
-## 🤖 AI/ML Projects
-1. **[AI-Powered Email Assistant](https://github.com/KonetiBalaji/AI_Powered_Email_Assistant)** - An intelligent email management system built with Python
-2. **[IMDB Movie Review Sentiment Analysis](https://github.com/KonetiBalaji/IMDB-Movie-Review-Sentiment-Analysis)** - Sentiment analysis using Naive Bayes and DistilBERT models with Streamlit dashboard
-3. **[LLM-Based Sentiment Analysis](https://github.com/KonetiBalaji/LLM-Based-Sentiment-Analysis-on-Movie-Reviews)** - Movie review sentiment analysis using fine-tuned BERT and Logistic Regression
-4. **[AI-Powered Resume Screening](https://github.com/KonetiBalaji/AI_Powered_Resume)** - LLM-based resume ranking system with bias evaluation
-5. **[MovieMood Sentiment Engine](https://github.com/KonetiBalaji/MovieMood-Real-Time-Sentiment-Classification-Engine)** - Real-time sentiment classification system
-6. **[Image Classification](https://github.com/KonetiBalaji/Image-Classification-with-TensorFlow-Dog-vs-Cat-or-CIFAR-10)** - TensorFlow models for Dog vs Cat and CIFAR-10 datasets
-7. **[Phishing Detection](https://github.com/KonetiBalaji/LLM_Classification_Task_Phishing_Detection)** - Zero-shot LLM-based security system
-
-## 📊 Data Analysis & Visualization
-1. **[Titanic Dataset Analysis](https://github.com/KonetiBalaji/ExploratoryDataAnalysis_Titanic_Dataset)** - EDA and machine learning with advanced visualizations
-2. **[Netflix Dataset Analysis](https://github.com/KonetiBalaji/ExploratoryDataAnalysis_Netflix_Dataset)** - Interactive visualizations and temporal trends analysis
-3. **[Housing Dataset Analysis](https://github.com/KonetiBalaji/ExploratoryDataAnalysis_Housing_Dataset)** - Advanced preprocessing and feature engineering
-4. **[Walmart Sales Analysis](https://github.com/KonetiBalaji/Walmart_Sales_Analysis)** - Data analysis and visualization project
-5. **[Student Performance Prediction](https://github.com/KonetiBalaji/Linear-Regression-for-Predective-Modeling)** - Linear regression models with SHAP visualizations and hyperparameter tuning
-
-## 🌐 Web & Full-Stack Development
-1. **[Real Estate Web Application](https://github.com/KonetiBalaji/web-portfolio-for-juniors)** - Full-stack application with role-based dashboards using React, Node.js, Express, and MongoDB
-2. **[Polyglot LLM Translator](https://github.com/KonetiBalaji/LLM-based-AI-Translator)** - Multilingual translation web app using MBART-50 model and Streamlit
-3. **[MovieLens Recommender](https://github.com/KonetiBalaji/MovieLens-Recommender-A-Collaborative-Filtering-Engine)** - Collaborative filtering engine with Streamlit interface
-
-## 🔒 Security & Blockchain
-1. **[Security Log Detection](https://github.com/KonetiBalaji/LLM_for_Security_Log_Detection)** - Hybrid security analysis using LLMs and BERT
-2. **[Blockchain Document Authentication](https://github.com/KonetiBalaji/Blockchain-Based-Document-Authentication-System)** - Secure document verification system
-
-## 📈 Business & Optimization
-1. **[Supply Chain Optimization](https://github.com/KonetiBalaji/Advanced-Supply-Chain-Optimization-Leveraging-Predictive-Analytics-and-Machine-Learning)** - Predictive analytics and ML-based optimization
-
-## 🔜 Future Projects:
-- AI-Powered Mood Prediction System: Personalized Insights Based on Daily Routines
-- Advanced Data Visualization Projects
-- Machine Learning and Cloud Computing with AWS
-- Workflow Automation with Python
-
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=KonetiBalaji&theme=dark&hide_border=false&include_all_commits=true&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=KonetiBalaji&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=KonetiBalaji&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=KonetiBalaji&limit=5&theme=dark&combine_all_yearly_contributions=true)
+## 👋 About Me
+I'm Balaji Koneti – a Data Scientist & Full-Stack Developer passionate about building real-world AI/ML applications.  
+Currently working on an AI-Powered Mood Prediction System that delivers personalized insights from behavioral patterns.  
+I love automating workflows, contributing to open-source, and integrating cloud-native intelligence.
 
 ---
-[![](https://visitcount.itsvg.in/api?id=KonetiBalaji&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🎯 Goals & Focus
+- Building scalable AI/ML solutions for social and enterprise impact  
+- Contributing to open-source data visualization projects  
+- Advancing cloud and ML ops deployment workflows  
+
+---
+
+## 💼 Tech Stack
+
+### 👨‍💻 Languages  
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+### 🤖 AI/ML
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+
+### 📊 Data Science
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Jupyter](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-%230C55A5.svg?style=for-the-badge&logo=seaborn&logoColor=white)
+
+### ☁️ Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+
+### 🗃️ Databases
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+
+### 🛠️ Tools & Platforms
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+---
+
+## 🚀 Featured Projects
+
+### 🤖 AI/ML
+- [**AI-Powered Email Assistant**](https://github.com/KonetiBalaji/AI_Powered_Email_Assistant): Smart spam detection & summarization using NLP
+- [**IMDB Sentiment Analysis**](https://github.com/KonetiBalaji/IMDB-Movie-Review-Sentiment-Analysis): Naive Bayes + DistilBERT, Streamlit visualizer
+- [**Resume Screener**](https://github.com/KonetiBalaji/AI_Powered_Resume): LLM-based ranking with bias evaluation and dashboard
+- [**Phishing Detection**](https://github.com/KonetiBalaji/LLM_Classification_Task_Phishing_Detection): Zero-shot security classification with LLMs
+
+### 📈 Data Analytics
+- [**Titanic EDA**](https://github.com/KonetiBalaji/ExploratoryDataAnalysis_Titanic_Dataset): Exploratory analysis + ML classification
+- [**Netflix Data Viz**](https://github.com/KonetiBalaji/ExploratoryDataAnalysis_Netflix_Dataset): Interactive dashboards and trends
+- [**Walmart Sales Analysis**](https://github.com/KonetiBalaji/Walmart_Sales_Analysis): Multi-variate analysis of time-series sales data
+
+### 🌐 Full-Stack Apps
+- [**Real Estate Dashboard**](https://github.com/KonetiBalaji/web-portfolio-for-juniors): Role-based dashboard using MERN stack
+- [**LLM Translator**](https://github.com/KonetiBalaji/LLM-based-AI-Translator): MBART-powered multilingual translator in Streamlit
+
+### 🔐 Security & Blockchain
+- [**Security Log Classifier**](https://github.com/KonetiBalaji/LLM_for_Security_Log_Detection): Hybrid system using LLM and BERT
+- [**Blockchain Verifier**](https://github.com/KonetiBalaji/Blockchain-Based-Document-Authentication-System): Document verification using IPFS + Smart Contracts
+
+---
+
+## 🏆 Certifications
+- 🟧 **AWS Certified Machine Learning – Specialty**  
+- 🧠 **IBM Data Science Professional Certificate**  
+- 🔍 **Azure AI Fundamentals (AI-900)**  
+- 🎓 **Coursera Deep Learning Specialization**
+
+---
+
+## 📈 GitHub Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=KonetiBalaji&theme=radical&show_icons=true&hide_border=false" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KonetiBalaji&theme=radical&hide_border=false" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KonetiBalaji&theme=radical&layout=compact&hide_border=false" />
+</div>
+
+---
+
+## 🔗 Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/balaji-koneti/)  
+📬 Let’s collaborate! Feel free to connect via LinkedIn or explore more on my [GitHub](https://github.com/KonetiBalaji).
+
+---
+
+> _"Code is like baking — mix the right ingredients, follow the right process, and something wonderful happens."_ 🍰
+
