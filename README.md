@@ -31,29 +31,46 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/balaji-koneti/) 
 
 # 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![GraphQL](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JavaFX](https://img.shields.io/badge/javafx-%23FF0000.svg?style=for-the-badge&logo=javafx&logoColor=white) ![Apache Maven](https://img.shields.io/badge/Apache%20Maven-C71A36?style=for-the-badge&logo=Apache%20Maven&logoColor=white) ![Apache Tomcat](https://img.shields.io/badge/apache%20tomcat-%23F8DC75.svg?style=for-the-badge&logo=apache-tomcat&logoColor=black) ![Jenkins](https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![AmazonDynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-4053D6?style=for-the-badge&logo=Amazon%20DynamoDB&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white) ![SonarLint](https://img.shields.io/badge/SonarLint-CB2029?style=for-the-badge&logo=SONARLINT&logoColor=white) ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD)
 
-#  Projects:
+## 🛠️ Programming Languages
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
+## 🤖 AI/ML Frameworks
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+
+## 📊 Data Science Tools
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Jupyter](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=white) ![Seaborn](https://img.shields.io/badge/Seaborn-%230C55A5.svg?style=for-the-badge&logo=seaborn&logoColor=white)
+
+## ☁️ Cloud & DevOps
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
+
+## 🗄️ Databases
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+
+## 🛠️ Development Tools
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+# 🚀 Projects:
 Here are some of my notable projects:
 
-1. **AI-Powered Email Assistant** - An intelligent email management system built with Python
-2. **IMDB Movie Review Sentiment Analysis** - Sentiment analysis using Naive Bayes and DistilBERT models with Streamlit dashboard
-3. **Polyglot LLM Translator** - Multilingual translation web app using MBART-50 model and Streamlit
-4. **Real Estate Web Application** - Full-stack application with role-based dashboards using React, Node.js, Express, and MongoDB
-5. **LLM-Based Sentiment Analysis** - Movie review sentiment analysis using fine-tuned BERT and Logistic Regression
-6. **AI-Powered Resume Screening** - LLM-based resume ranking system with bias evaluation
-7. **Student Performance Prediction** - Linear regression models with SHAP visualizations and hyperparameter tuning
-8. **Titanic Dataset Analysis** - EDA and machine learning with advanced visualizations
-9. **Netflix Dataset Analysis** - Interactive visualizations and temporal trends analysis
-10. **Housing Dataset Analysis** - Advanced preprocessing and feature engineering
-11. **Security Log Detection** - Hybrid security analysis using LLMs and BERT
-12. **MovieMood Sentiment Engine** - Real-time sentiment classification system
-13. **MovieLens Recommender** - Collaborative filtering engine with Streamlit interface
-14. **Image Classification** - TensorFlow models for Dog vs Cat and CIFAR-10 datasets
-15. **Blockchain Document Authentication** - Secure document verification system
-16. **Supply Chain Optimization** - Predictive analytics and ML-based optimization
-17. **Phishing Detection** - Zero-shot LLM-based security system
-18. **Walmart Sales Analysis** - Data analysis and visualization project
+1. **[AI-Powered Email Assistant](https://github.com/KonetiBalaji/AI_Powered_Email_Assistant)** - An intelligent email management system built with Python
+2. **[IMDB Movie Review Sentiment Analysis](https://github.com/KonetiBalaji/IMDB-Movie-Review-Sentiment-Analysis)** - Sentiment analysis using Naive Bayes and DistilBERT models with Streamlit dashboard
+3. **[Polyglot LLM Translator](https://github.com/KonetiBalaji/LLM-based-AI-Translator)** - Multilingual translation web app using MBART-50 model and Streamlit
+4. **[Real Estate Web Application](https://github.com/KonetiBalaji/web-portfolio-for-juniors)** - Full-stack application with role-based dashboards using React, Node.js, Express, and MongoDB
+5. **[LLM-Based Sentiment Analysis](https://github.com/KonetiBalaji/LLM-Based-Sentiment-Analysis-on-Movie-Reviews)** - Movie review sentiment analysis using fine-tuned BERT and Logistic Regression
+6. **[AI-Powered Resume Screening](https://github.com/KonetiBalaji/AI_Powered_Resume)** - LLM-based resume ranking system with bias evaluation
+7. **[Student Performance Prediction](https://github.com/KonetiBalaji/Linear-Regression-for-Predective-Modeling)** - Linear regression models with SHAP visualizations and hyperparameter tuning
+8. **[Titanic Dataset Analysis](https://github.com/KonetiBalaji/ExploratoryDataAnalysis_Titanic_Dataset)** - EDA and machine learning with advanced visualizations
+9. **[Netflix Dataset Analysis](https://github.com/KonetiBalaji/ExploratoryDataAnalysis_Netflix_Dataset)** - Interactive visualizations and temporal trends analysis
+10. **[Housing Dataset Analysis](https://github.com/KonetiBalaji/ExploratoryDataAnalysis_Housing_Dataset)** - Advanced preprocessing and feature engineering
+11. **[Security Log Detection](https://github.com/KonetiBalaji/LLM_for_Security_Log_Detection)** - Hybrid security analysis using LLMs and BERT
+12. **[MovieMood Sentiment Engine](https://github.com/KonetiBalaji/MovieMood-Real-Time-Sentiment-Classification-Engine)** - Real-time sentiment classification system
+13. **[MovieLens Recommender](https://github.com/KonetiBalaji/MovieLens-Recommender-A-Collaborative-Filtering-Engine)** - Collaborative filtering engine with Streamlit interface
+14. **[Image Classification](https://github.com/KonetiBalaji/Image-Classification-with-TensorFlow-Dog-vs-Cat-or-CIFAR-10)** - TensorFlow models for Dog vs Cat and CIFAR-10 datasets
+15. **[Blockchain Document Authentication](https://github.com/KonetiBalaji/Blockchain-Based-Document-Authentication-System)** - Secure document verification system
+16. **[Supply Chain Optimization](https://github.com/KonetiBalaji/Advanced-Supply-Chain-Optimization-Leveraging-Predictive-Analytics-and-Machine-Learning)** - Predictive analytics and ML-based optimization
+17. **[Phishing Detection](https://github.com/KonetiBalaji/LLM_Classification_Task_Phishing_Detection)** - Zero-shot LLM-based security system
+18. **[Walmart Sales Analysis](https://github.com/KonetiBalaji/Walmart_Sales_Analysis)** - Data analysis and visualization project
 
 ## 🔜 Future Projects:
 - AI-Powered Mood Prediction System: Personalized Insights Based on Daily Routines
