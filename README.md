@@ -1,3 +1,12 @@
+# Balaji Koneti
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=40&pause=1000&color=2E9CDB&center=true&vCenter=true&width=600&height=100&lines=Data+Scientist;AI%2FML+Engineer;Full-Stack+Developer" alt="Typing SVG" />
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=KonetiBalaji&label=Profile%20views&color=0e75b6&style=flat" alt="Profile Views" />
+</div>
+
 # 💫 About Me:
 👋 Hi there! I'm Balaji Koneti, a passionate Data Scientist and Full-Stack Developer with expertise in AI/ML and cloud technologies.
 
@@ -27,6 +36,16 @@
 
 ⚡ **Fun Fact**: I combine my passion for coding with baking - there's something satisfying about creating both perfect code and delicious treats!
 
+## 📊 Project Statistics
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=KonetiBalaji&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=KonetiBalaji&theme=radical" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=KonetiBalaji&layout=compact&theme=radical" alt="Top Languages" />
+</div>
+
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/balaji-koneti/) 
 
@@ -51,26 +70,34 @@
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white) ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 # 🚀 Projects:
-Here are some of my notable projects:
 
+## 🤖 AI/ML Projects
 1. **[AI-Powered Email Assistant](https://github.com/KonetiBalaji/AI_Powered_Email_Assistant)** - An intelligent email management system built with Python
 2. **[IMDB Movie Review Sentiment Analysis](https://github.com/KonetiBalaji/IMDB-Movie-Review-Sentiment-Analysis)** - Sentiment analysis using Naive Bayes and DistilBERT models with Streamlit dashboard
-3. **[Polyglot LLM Translator](https://github.com/KonetiBalaji/LLM-based-AI-Translator)** - Multilingual translation web app using MBART-50 model and Streamlit
-4. **[Real Estate Web Application](https://github.com/KonetiBalaji/web-portfolio-for-juniors)** - Full-stack application with role-based dashboards using React, Node.js, Express, and MongoDB
-5. **[LLM-Based Sentiment Analysis](https://github.com/KonetiBalaji/LLM-Based-Sentiment-Analysis-on-Movie-Reviews)** - Movie review sentiment analysis using fine-tuned BERT and Logistic Regression
-6. **[AI-Powered Resume Screening](https://github.com/KonetiBalaji/AI_Powered_Resume)** - LLM-based resume ranking system with bias evaluation
-7. **[Student Performance Prediction](https://github.com/KonetiBalaji/Linear-Regression-for-Predective-Modeling)** - Linear regression models with SHAP visualizations and hyperparameter tuning
-8. **[Titanic Dataset Analysis](https://github.com/KonetiBalaji/ExploratoryDataAnalysis_Titanic_Dataset)** - EDA and machine learning with advanced visualizations
-9. **[Netflix Dataset Analysis](https://github.com/KonetiBalaji/ExploratoryDataAnalysis_Netflix_Dataset)** - Interactive visualizations and temporal trends analysis
-10. **[Housing Dataset Analysis](https://github.com/KonetiBalaji/ExploratoryDataAnalysis_Housing_Dataset)** - Advanced preprocessing and feature engineering
-11. **[Security Log Detection](https://github.com/KonetiBalaji/LLM_for_Security_Log_Detection)** - Hybrid security analysis using LLMs and BERT
-12. **[MovieMood Sentiment Engine](https://github.com/KonetiBalaji/MovieMood-Real-Time-Sentiment-Classification-Engine)** - Real-time sentiment classification system
-13. **[MovieLens Recommender](https://github.com/KonetiBalaji/MovieLens-Recommender-A-Collaborative-Filtering-Engine)** - Collaborative filtering engine with Streamlit interface
-14. **[Image Classification](https://github.com/KonetiBalaji/Image-Classification-with-TensorFlow-Dog-vs-Cat-or-CIFAR-10)** - TensorFlow models for Dog vs Cat and CIFAR-10 datasets
-15. **[Blockchain Document Authentication](https://github.com/KonetiBalaji/Blockchain-Based-Document-Authentication-System)** - Secure document verification system
-16. **[Supply Chain Optimization](https://github.com/KonetiBalaji/Advanced-Supply-Chain-Optimization-Leveraging-Predictive-Analytics-and-Machine-Learning)** - Predictive analytics and ML-based optimization
-17. **[Phishing Detection](https://github.com/KonetiBalaji/LLM_Classification_Task_Phishing_Detection)** - Zero-shot LLM-based security system
-18. **[Walmart Sales Analysis](https://github.com/KonetiBalaji/Walmart_Sales_Analysis)** - Data analysis and visualization project
+3. **[LLM-Based Sentiment Analysis](https://github.com/KonetiBalaji/LLM-Based-Sentiment-Analysis-on-Movie-Reviews)** - Movie review sentiment analysis using fine-tuned BERT and Logistic Regression
+4. **[AI-Powered Resume Screening](https://github.com/KonetiBalaji/AI_Powered_Resume)** - LLM-based resume ranking system with bias evaluation
+5. **[MovieMood Sentiment Engine](https://github.com/KonetiBalaji/MovieMood-Real-Time-Sentiment-Classification-Engine)** - Real-time sentiment classification system
+6. **[Image Classification](https://github.com/KonetiBalaji/Image-Classification-with-TensorFlow-Dog-vs-Cat-or-CIFAR-10)** - TensorFlow models for Dog vs Cat and CIFAR-10 datasets
+7. **[Phishing Detection](https://github.com/KonetiBalaji/LLM_Classification_Task_Phishing_Detection)** - Zero-shot LLM-based security system
+
+## 📊 Data Analysis & Visualization
+1. **[Titanic Dataset Analysis](https://github.com/KonetiBalaji/ExploratoryDataAnalysis_Titanic_Dataset)** - EDA and machine learning with advanced visualizations
+2. **[Netflix Dataset Analysis](https://github.com/KonetiBalaji/ExploratoryDataAnalysis_Netflix_Dataset)** - Interactive visualizations and temporal trends analysis
+3. **[Housing Dataset Analysis](https://github.com/KonetiBalaji/ExploratoryDataAnalysis_Housing_Dataset)** - Advanced preprocessing and feature engineering
+4. **[Walmart Sales Analysis](https://github.com/KonetiBalaji/Walmart_Sales_Analysis)** - Data analysis and visualization project
+5. **[Student Performance Prediction](https://github.com/KonetiBalaji/Linear-Regression-for-Predective-Modeling)** - Linear regression models with SHAP visualizations and hyperparameter tuning
+
+## 🌐 Web & Full-Stack Development
+1. **[Real Estate Web Application](https://github.com/KonetiBalaji/web-portfolio-for-juniors)** - Full-stack application with role-based dashboards using React, Node.js, Express, and MongoDB
+2. **[Polyglot LLM Translator](https://github.com/KonetiBalaji/LLM-based-AI-Translator)** - Multilingual translation web app using MBART-50 model and Streamlit
+3. **[MovieLens Recommender](https://github.com/KonetiBalaji/MovieLens-Recommender-A-Collaborative-Filtering-Engine)** - Collaborative filtering engine with Streamlit interface
+
+## 🔒 Security & Blockchain
+1. **[Security Log Detection](https://github.com/KonetiBalaji/LLM_for_Security_Log_Detection)** - Hybrid security analysis using LLMs and BERT
+2. **[Blockchain Document Authentication](https://github.com/KonetiBalaji/Blockchain-Based-Document-Authentication-System)** - Secure document verification system
+
+## 📈 Business & Optimization
+1. **[Supply Chain Optimization](https://github.com/KonetiBalaji/Advanced-Supply-Chain-Optimization-Leveraging-Predictive-Analytics-and-Machine-Learning)** - Predictive analytics and ML-based optimization
 
 ## 🔜 Future Projects:
 - AI-Powered Mood Prediction System: Personalized Insights Based on Daily Routines
