@@ -30,7 +30,7 @@ Currently working on my latest projects:
 ### [Doodle_Classifier](https://github.com/KonetiBalaji/Doodle_Classifier)
 *Updated today*
 
----------------------
+------------------------
 
 ## 💼 Tech Stack
 
