@@ -20,7 +20,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.PAT_TOKEN }}
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -50,7 +50,7 @@ jobs:
       if: steps.changes.outputs.has_changes == 'true'
       uses: peter-evans/create-pull-request@v5
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.PAT_TOKEN }}
         commit-message: "🤖 Auto-update README with latest repositories"
         title: "🤖 Auto-update README with latest repositories"
         body: |
