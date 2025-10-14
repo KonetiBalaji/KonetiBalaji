@@ -1,4 +1,4 @@
-name: Update README with Latest Repos
+name: Update README with Latest Repos (Safe Mode)
 
 on:
   # Instant triggers for repository activity
@@ -47,14 +47,30 @@ jobs:
           echo "has_changes=true" >> $GITHUB_OUTPUT
         fi
     
-    - name: Commit changes
+    - name: Create Pull Request
       if: steps.changes.outputs.has_changes == 'true'
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add README.md
-        git commit -m "🤖 Auto-update README with latest repositories"
-        git push
+      uses: peter-evans/create-pull-request@v5
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        commit-message: "🤖 Auto-update README with latest repositories"
+        title: "🤖 Auto-update README with latest repositories"
+        body: |
+          This PR automatically updates the README with your latest repositories.
+          
+          **Changes made:**
+          - Updated Goals & Focus section with latest 3 repositories
+          - Sorted by last push date
+          - Clean format without icons
+          - Proper time formatting
+          
+          **Triggered by:** ${{ github.event_name }}
+          **Repository:** ${{ github.repository }}
+          **Branch:** ${{ github.ref_name }}
+        branch: auto-update-readme
+        delete-branch: true
+        labels: |
+          automated
+          readme-update
     
     - name: No changes notification
       if: steps.changes.outputs.has_changes == 'false'
