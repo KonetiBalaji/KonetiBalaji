@@ -69,6 +69,15 @@ class GitHubRepoUpdater:
             'last_push': last_push.strftime('%Y-%m-%d')
         }
     
+    def format_time_ago(self, days_ago):
+        """Format the time ago string properly"""
+        if days_ago == 0:
+            return "today"
+        elif days_ago == 1:
+            return "a day ago"
+        else:
+            return f"{days_ago} days ago"
+    
     def generate_goals_focus_section(self, repos):
         """Generate the Goals & Focus section with latest repositories"""
         if not repos or len(repos) == 0:
@@ -81,10 +90,15 @@ class GitHubRepoUpdater:
         section += "Currently working on my latest projects:\n\n"
         
         for i, repo in enumerate(repos, 1):
-            emoji = "🚀" if i == 1 else "⚡" if i == 2 else "🔥"
-            section += f"### {emoji} [{repo['name']}]({repo['url']})\n"
-            section += f"**{repo['description']}**  \n"
-            section += f"*{repo['language']} • {repo['stars']}⭐ • {repo['forks']}🍴 • Updated {repo['days_ago']} days ago*\n\n"
+            section += f"### [{repo['name']}]({repo['url']})\n"
+            
+            # Only show description if it's available and not the default message
+            if repo['description'] and repo['description'] != 'No description available':
+                section += f"**{repo['description']}**  \n"
+            
+            # Format the time string properly
+            time_str = self.format_time_ago(repo['days_ago'])
+            section += f"*Updated {time_str}*\n\n"
         
         section += "---"
         return section
@@ -125,7 +139,8 @@ class GitHubRepoUpdater:
             print("README.md updated successfully!")
             print(f"Updated with {len(formatted_repos)} latest repositories:")
             for repo in formatted_repos:
-                print(f"   - {repo['name']} (last updated {repo['days_ago']} days ago)")
+                time_str = self.format_time_ago(repo['days_ago'])
+                print(f"   - {repo['name']} (last updated {time_str})")
             
             return True
             
