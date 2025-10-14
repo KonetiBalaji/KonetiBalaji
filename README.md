@@ -20,13 +20,17 @@ I love automating workflows, contributing to open-source, and integrating cloud-
 ## 🎯 Goals & Focus
 Currently working on my latest projects:
 
-### [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji) *Updated today*
+### [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)
+*Updated today*
 
-### [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript) *Updated today*
+### [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)
+**Personal Website**  
+*Updated today*
 
-### [Doodle_Classifier](https://github.com/KonetiBalaji/Doodle_Classifier) *Updated today*
+### [Doodle_Classifier](https://github.com/KonetiBalaji/Doodle_Classifier)
+*Updated today*
 
-------------------
+---------------------
 
 ## 💼 Tech Stack
 

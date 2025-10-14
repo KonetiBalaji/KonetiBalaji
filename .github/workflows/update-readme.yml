@@ -1,10 +1,16 @@
 name: Update README with Latest Repos
 
 on:
+  # Instant triggers for repository activity
+  push:
+    branches: [ main, master ]
+  repository_dispatch:
+    types: [ update-readme ]
+  # Daily backup at 6 AM UTC
   schedule:
-    # Run every day at 6 AM UTC
     - cron: '0 6 * * *'
-  workflow_dispatch: # Allow manual trigger
+  # Manual trigger
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -29,10 +35,26 @@ jobs:
     - name: Update README
       run: python update_readme.py
     
+    - name: Check for changes
+      id: changes
+      run: |
+        if git diff --quiet README.md; then
+          echo "No changes to README.md"
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "README.md has been updated"
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+        fi
+    
     - name: Commit changes
+      if: steps.changes.outputs.has_changes == 'true'
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add README.md
-        git diff --staged --quiet || git commit -m "🤖 Auto-update README with latest repositories"
+        git commit -m "🤖 Auto-update README with latest repositories"
         git push
+    
+    - name: No changes notification
+      if: steps.changes.outputs.has_changes == 'false'
+      run: echo "✅ README is already up to date - no changes needed"
