@@ -18,11 +18,21 @@ I love automating workflows, contributing to open-source, and integrating cloud-
 ---
 
 ## 🎯 Goals & Focus
-- Building scalable AI/ML solutions for social and enterprise impact  
-- Contributing to open-source data visualization projects  
-- Advancing cloud and ML ops deployment workflows  
+Currently working on my latest projects:
 
----
+### 🚀 [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)
+**No description available**  
+*TypeScript • 0⭐ • 0🍴 • Updated 0 days ago*
+
+### ⚡ [Doodle_Classifier](https://github.com/KonetiBalaji/Doodle_Classifier)
+**No description available**  
+*Python • 0⭐ • 0🍴 • Updated 0 days ago*
+
+### 🔥 [Burnout_Risk_Prediction](https://github.com/KonetiBalaji/Burnout_Risk_Prediction)
+**No description available**  
+*Python • 0⭐ • 0🍴 • Updated 0 days ago*
+
+---------
 
 ## 💼 Tech Stack
 
