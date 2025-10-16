@@ -25,12 +25,12 @@ Currently working on my latest projects:
 
 ### [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)
 **Personal Website**  
-*Updated today*
+*Updated 2 days ago*
 
 ### [Doodle_Classifier](https://github.com/KonetiBalaji/Doodle_Classifier)
-*Updated today*
+*Updated 3 days ago*
 
-------------------------
+---------------------------
 
 ## 💼 Tech Stack
 
