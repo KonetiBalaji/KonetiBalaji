@@ -23,14 +23,14 @@ Currently working on my latest projects:
 ### [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)
 *Updated today*
 
+### [Private-repo](https://github.com/KonetiBalaji/Private-repo)
+*Updated a day ago*
+
 ### [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)
 **Personal Website**  
-*Updated 2 days ago*
+*Updated 11 days ago*
 
-### [Doodle_Classifier](https://github.com/KonetiBalaji/Doodle_Classifier)
-*Updated 3 days ago*
-
----------------------------
+------------------------------
 
 ## 💼 Tech Stack
 
