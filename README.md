@@ -23,14 +23,14 @@ Currently working on my latest projects:
 ### [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)
 *Updated today*
 
-### [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)
-**Personal Website**  
+### [AI-Trader](https://github.com/KonetiBalaji/AI-Trader)
+**"AI-Trader: Can AI Beat the Market?" Live Trading: https://hkuds.github.io/AI-Trader/**  
 *Updated 2 days ago*
 
-### [Doodle_Classifier](https://github.com/KonetiBalaji/Doodle_Classifier)
-*Updated 3 days ago*
+### [Burnout_Risk_Prediction](https://github.com/KonetiBalaji/Burnout_Risk_Prediction)
+*Updated 2 days ago*
 
----------------------------
+------------------------------
 
 ## 💼 Tech Stack
 
