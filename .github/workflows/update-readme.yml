@@ -24,12 +24,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ secrets.PAT_TOKEN || github.token }}
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.11'
 
       - name: Install dependencies
         run: |
@@ -37,7 +38,14 @@ jobs:
           pip install -r requirements.txt
 
       - name: Update README
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || github.token }}
         run: python update_readme.py
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
 
       - name: Check for changes
         id: changes
@@ -48,34 +56,21 @@ jobs:
           else
             echo "README.md has been updated"
             echo "has_changes=true" >> $GITHUB_OUTPUT
+            git diff README.md
           fi
 
-      - name: Create Pull Request
+      - name: Commit and push changes
         if: steps.changes.outputs.has_changes == 'true'
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.PAT_TOKEN }}
-          commit-message: "🤖 Auto-update README with latest repositories"
-          title: "🤖 Auto-update README with latest repositories"
-          body: |
-            This PR automatically updates the README with your latest repositories.
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || github.token }}
+        run: |
+          git add README.md
+          git commit -m "🤖 Auto-update README with latest repositories
 
-            **Changes made:**
-            - Updated Goals & Focus section with latest 3 repositories
-            - Sorted by last push date
-            - Clean format without icons
-            - Proper time formatting
-
-            **Triggered by:** ${{ github.event_name }}
-            **Repository:** ${{ github.repository }}
-            **Branch:** ${{ github.ref_name }}
-          branch: auto-update-readme
-          delete-branch: true
-          labels: automated, readme-update
-          committer: GitHub <noreply@github.com>
-          author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-          signoff: false
-          draft: false
+          - Updated Goals & Focus section with latest 3 repositories
+          - Sorted by last push date
+          - Triggered by: ${{ github.event_name }}"
+          git push
 
       - name: No changes notification
         if: steps.changes.outputs.has_changes == 'false'

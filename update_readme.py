@@ -9,15 +9,19 @@ import json
 from datetime import datetime
 import os
 import re
+import sys
 
 class GitHubRepoUpdater:
-    def __init__(self, username="KonetiBalaji"):
+    def __init__(self, username="KonetiBalaji", token=None):
         self.username = username
         self.api_base = "https://api.github.com"
         self.headers = {
             "Accept": "application/vnd.github.v3+json",
             "User-Agent": "README-Updater"
         }
+        # Use token if provided (from GITHUB_TOKEN or PAT_TOKEN)
+        if token:
+            self.headers["Authorization"] = f"token {token}"
         
     def get_latest_repos(self, count=3):
         """Fetch the latest public repositories sorted by last push date"""
@@ -31,17 +35,39 @@ class GitHubRepoUpdater:
                 "per_page": count
             }
             
-            response = requests.get(url, headers=self.headers, params=params)
+            response = requests.get(url, headers=self.headers, params=params, timeout=30)
+            
+            if response.status_code == 403:
+                error_data = response.json() if response.content else {}
+                if "rate limit" in error_data.get("message", "").lower():
+                    print(f"❌ Rate limit exceeded. Please wait or use a GitHub token.")
+                    print(f"   Remaining requests: {response.headers.get('X-RateLimit-Remaining', 'unknown')}")
+                else:
+                    print(f"❌ API Error (403 Forbidden): {error_data.get('message', response.text)}")
+                return []
             
             if response.status_code != 200:
-                print(f"API Error: {response.text}")
+                error_msg = response.text
+                try:
+                    error_data = response.json()
+                    error_msg = error_data.get("message", error_msg)
+                except:
+                    pass
+                print(f"❌ API Error ({response.status_code}): {error_msg}")
                 return []
             
             repos = response.json()
+            if not repos:
+                print(f"⚠️  No public repositories found for user: {self.username}")
+                return []
+            
             return repos[:count]  # Ensure we only get the requested number
             
+        except requests.exceptions.Timeout:
+            print(f"❌ Request timeout: GitHub API took too long to respond")
+            return []
         except requests.exceptions.RequestException as e:
-            print(f"Error fetching repositories: {e}")
+            print(f"❌ Error fetching repositories: {e}")
             return []
     
     def format_repo_info(self, repo):
@@ -113,7 +139,11 @@ class GitHubRepoUpdater:
             # Get latest repositories
             repos_data = self.get_latest_repos(3)
             if not repos_data:
-                print("No repositories found or error occurred")
+                print("❌ No repositories found or error occurred")
+                print("   This could be due to:")
+                print("   - Rate limiting (use GITHUB_TOKEN or PAT_TOKEN)")
+                print("   - No public repositories")
+                print("   - Network/API issues")
                 return False
             
             # Format repository information
@@ -153,15 +183,25 @@ class GitHubRepoUpdater:
 
 def main():
     """Main function to run the updater"""
-    print("Updating README.md with latest repositories...")
+    print("🔄 Updating README.md with latest repositories...")
+    print(f"   Username: KonetiBalaji")
     
-    updater = GitHubRepoUpdater()
+    # Try to get token from environment (GitHub Actions provides GITHUB_TOKEN)
+    token = os.environ.get("GITHUB_TOKEN") or os.environ.get("PAT_TOKEN")
+    if token:
+        print("   ✅ Using GitHub token for API authentication")
+    else:
+        print("   ⚠️  No token found - using unauthenticated requests (rate limited)")
+    
+    updater = GitHubRepoUpdater(token=token)
     success = updater.update_readme()
     
     if success:
-        print("\nREADME update completed successfully!")
+        print("\n✅ README update completed successfully!")
+        sys.exit(0)
     else:
-        print("\nREADME update failed!")
+        print("\n❌ README update failed!")
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
