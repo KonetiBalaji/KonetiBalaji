@@ -26,7 +26,7 @@ jobs:
         with:
           token: ${{ secrets.PAT_TOKEN || github.token }}
           fetch-depth: 0
-          persist-credentials: true
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -49,11 +49,12 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # Configure git credential helper to use token
-          echo "https://x-access-token:${GITHUB_TOKEN}@github.com" > $HOME/.git-credentials
-          git config --global credential.helper store
-          # Also set remote URL explicitly
+          # Set remote URL with token embedded
+          # Note: We mask the token in logs for security
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+          # Verify remote URL is set (token will be masked in output)
+          echo "Remote URL configured"
+          git remote get-url origin | sed 's/:[^@]*@/:***@/'
 
       - name: Check for changes
         id: changes
@@ -78,8 +79,10 @@ jobs:
           - Updated Goals & Focus section with latest 3 repositories
           - Sorted by last push date
           - Triggered by: ${{ github.event_name }}"
-          # Push with explicit token in URL to the branch that triggered the workflow
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
+          # Ensure remote URL still has token (in case it was reset)
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+          # Push to the branch that triggered the workflow
+          git push origin HEAD:${{ github.ref_name }}
 
       - name: No changes notification
         if: steps.changes.outputs.has_changes == 'false'
