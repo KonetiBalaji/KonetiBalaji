@@ -11,6 +11,11 @@ import os
 import re
 import sys
 
+# Fix Windows encoding for emojis
+if sys.platform == 'win32':
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
 class GitHubRepoUpdater:
     def __init__(self, username="KonetiBalaji", token=None):
         self.username = username
@@ -126,7 +131,7 @@ class GitHubRepoUpdater:
             time_str = self.format_time_ago(repo['days_ago'])
             section += f"*Updated {time_str}*\n\n"
         
-        section += "---"
+        section += "\n---"
         return section
     
     def update_readme(self, readme_path="README.md"):
@@ -153,13 +158,15 @@ class GitHubRepoUpdater:
             new_section = self.generate_goals_focus_section(formatted_repos)
             
             # Replace the Goals & Focus section in README
-            # Pattern to match the Goals & Focus section
-            pattern = r'## 🎯 Goals & Focus.*?(?=---)'
+            # Pattern to match the Goals & Focus section until the next section (--- or more dashes)
+            # Match from "## 🎯 Goals & Focus" until the next section header (##)
+            pattern = r'## 🎯 Goals & Focus.*?(?=\n## |\n---)'
             
             if re.search(pattern, content, re.DOTALL):
                 updated_content = re.sub(pattern, new_section, content, flags=re.DOTALL)
             else:
-                print("Goals & Focus section not found in README")
+                print("❌ Goals & Focus section not found in README")
+                print("   Looking for pattern: '## 🎯 Goals & Focus'")
                 return False
             
             # Write updated content
