@@ -24,9 +24,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT_TOKEN || github.token }}
           fetch-depth: 0
-          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -40,21 +38,13 @@ jobs:
 
       - name: Update README
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || github.token }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python update_readme.py
 
       - name: Configure Git
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || github.token }}
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          # Set remote URL with token embedded
-          # Note: We mask the token in logs for security
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
-          # Verify remote URL is set (token will be masked in output)
-          echo "Remote URL configured"
-          git remote get-url origin | sed 's/:[^@]*@/:***@/'
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Check for changes
         id: changes
@@ -68,10 +58,13 @@ jobs:
             git diff README.md
           fi
 
-      - name: Commit and push changes
+      - name: Set authenticated remote
         if: steps.changes.outputs.has_changes == 'true'
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || github.token }}
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+      
+      - name: Push changes
+        if: steps.changes.outputs.has_changes == 'true'
         run: |
           git add README.md
           git commit -m "🤖 Auto-update README with latest repositories
@@ -79,10 +72,7 @@ jobs:
           - Updated Goals & Focus section with latest 3 repositories
           - Sorted by last push date
           - Triggered by: ${{ github.event_name }}"
-          # Ensure remote URL still has token (in case it was reset)
-          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
-          # Push to the branch that triggered the workflow
-          git push origin HEAD:${{ github.ref_name }}
+          git push origin ${{ github.ref_name }}
 
       - name: No changes notification
         if: steps.changes.outputs.has_changes == 'false'
