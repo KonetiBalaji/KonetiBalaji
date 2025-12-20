@@ -43,9 +43,13 @@ jobs:
         run: python update_readme.py
 
       - name: Configure Git
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || github.token }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          # Configure remote URL with token for authentication
+          git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
 
       - name: Check for changes
         id: changes
@@ -61,8 +65,6 @@ jobs:
 
       - name: Commit and push changes
         if: steps.changes.outputs.has_changes == 'true'
-        env:
-          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || github.token }}
         run: |
           git add README.md
           git commit -m "🤖 Auto-update README with latest repositories
