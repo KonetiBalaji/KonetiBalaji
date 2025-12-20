@@ -23,13 +23,15 @@ Currently working on my latest projects:
 ### [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)
 *Updated today*
 
-### [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)
-**Personal Website**  
-*Updated 2 days ago*
+### [neuralroulette-ai](https://github.com/KonetiBalaji/neuralroulette-ai)
+**A smart AI system that analyzes real-time roulette data from Pragmatic Play Live Casino to uncove...**  
+*Updated 10 days ago*
 
-### [Doodle_Classifier](https://github.com/KonetiBalaji/Doodle_Classifier)
-*Updated 3 days ago*
+### [FullStack_Lab7](https://github.com/KonetiBalaji/FullStack_Lab7)
+*Updated 18 days ago*
 
+
+---
 ---------------------------
 
 ## 💼 Tech Stack
