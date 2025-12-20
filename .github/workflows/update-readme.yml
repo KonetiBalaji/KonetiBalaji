@@ -26,6 +26,7 @@ jobs:
         with:
           token: ${{ secrets.PAT_TOKEN || github.token }}
           fetch-depth: 0
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -48,7 +49,10 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # Configure remote URL with token for authentication
+          # Configure git credential helper to use token
+          echo "https://x-access-token:${GITHUB_TOKEN}@github.com" > $HOME/.git-credentials
+          git config --global credential.helper store
+          # Also set remote URL explicitly
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
 
       - name: Check for changes
@@ -65,6 +69,8 @@ jobs:
 
       - name: Commit and push changes
         if: steps.changes.outputs.has_changes == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN || github.token }}
         run: |
           git add README.md
           git commit -m "🤖 Auto-update README with latest repositories
@@ -72,7 +78,8 @@ jobs:
           - Updated Goals & Focus section with latest 3 repositories
           - Sorted by last push date
           - Triggered by: ${{ github.event_name }}"
-          git push
+          # Push with explicit token in URL to the branch that triggered the workflow
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
 
       - name: No changes notification
         if: steps.changes.outputs.has_changes == 'false'
