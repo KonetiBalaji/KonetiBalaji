@@ -20,17 +20,18 @@ I love automating workflows, contributing to open-source, and integrating cloud-
 ## 🎯 Goals & Focus
 Currently working on my latest projects:
 
-### [Private-repo](https://github.com/KonetiBalaji/Private-repo)
-*Updated today*
-
 ### [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)
-*Updated today*
+*Updated a day ago*
+
+### [Private-repo](https://github.com/KonetiBalaji/Private-repo)
+*Updated a day ago*
 
 ### [Become_Better](https://github.com/KonetiBalaji/Become_Better)
 **A minimalistic, privacy-focused goal tracking app with AI-powered insights, streaks, and daily re...**  
-*Updated 25 days ago*
+*Updated 26 days ago*
 
 
+---
 ---
 ---
 ---
