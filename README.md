@@ -20,16 +20,17 @@ I love automating workflows, contributing to open-source, and integrating cloud-
 ## 🎯 Goals & Focus
 Currently working on my latest projects:
 
-### [ML_Assignmnet_WSU](https://github.com/KonetiBalaji/ML_Assignmnet_WSU)
+### [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)
 *Updated today*
 
-### [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)
+### [ML_Assignmnet_WSU](https://github.com/KonetiBalaji/ML_Assignmnet_WSU)
 *Updated a day ago*
 
 ### [Private-repo](https://github.com/KonetiBalaji/Private-repo)
-*Updated 11 days ago*
+*Updated 12 days ago*
 
 
+---
 ---
 ---
 ---
