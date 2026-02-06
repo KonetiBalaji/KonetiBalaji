@@ -24,12 +24,13 @@ Currently working on my latest projects:
 *Updated today*
 
 ### [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)
-*Updated a day ago*
+*Updated today*
 
 ### [ML_Assignmnet_WSU](https://github.com/KonetiBalaji/ML_Assignmnet_WSU)
-*Updated 3 days ago*
+*Updated 4 days ago*
 
 
+---
 ---
 ---
 ---
