@@ -20,16 +20,18 @@ I love automating workflows, contributing to open-source, and integrating cloud-
 ## 🎯 Goals & Focus
 Currently working on my latest projects:
 
-### [Kwalifai_Suman](https://github.com/KonetiBalaji/Kwalifai_Suman)
+### [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)
+**Personal Website**  
 *Updated today*
 
 ### [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)
 *Updated today*
 
-### [ML_Assignmnet_WSU](https://github.com/KonetiBalaji/ML_Assignmnet_WSU)
-*Updated 4 days ago*
+### [Kwalifai_Suman](https://github.com/KonetiBalaji/Kwalifai_Suman)
+*Updated a day ago*
 
 
+---
 ---
 ---
 ---
