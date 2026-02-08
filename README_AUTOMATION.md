@@ -1,51 +1,74 @@
-# README Automation Setup
+# README Automation
 
-This repository automatically updates your README with your latest 3 public repositories.
+Automated system that keeps your GitHub profile README fresh with your latest work.
 
-## 📁 **Essential Files**
+## How It Works
 
-- `update_readme.py` - Main script that fetches and updates repositories
-- `requirements.txt` - Python dependencies
-- `.github/workflows/update-readme.yml` - GitHub Actions workflow
-- `update_readme.bat` - Windows batch script for manual execution
-- `PAT_SETUP_GUIDE.md` - Complete setup instructions
+| Trigger | When | What Happens |
+|---------|------|--------------|
+| **Push** | Any push to `main`/`master` | Updates Goals & Focus + timestamp |
+| **Schedule** | Daily at 6 AM UTC | Same — catches cross-repo activity |
+| **Manual** | Actions tab → Run workflow | On-demand refresh |
+| **Snake** | Daily at midnight UTC | Regenerates contribution snake SVG |
 
-## 🚀 **How It Works**
+## Files
 
-- **Instant updates** when you create or modify repositories
-- **Daily backup** at 6 AM UTC
-- **Manual triggers** from GitHub Actions tab
-- **Clean format** without icons, proper time formatting
+| File | Purpose |
+|------|---------|
+| `update_readme.py` | Fetches latest 3 repos via GitHub API, updates README sections between HTML comment markers |
+| `.github/workflows/update-readme.yml` | CI workflow — runs the script, commits changes |
+| `.github/workflows/snake.yml` | Generates contribution snake animation → `output` branch |
+| `requirements.txt` | Python dependencies (`requests`) |
+| `update_readme.bat` | Windows shortcut for local manual runs |
 
-## ⚙️ **Setup Required**
+## Dynamic Sections
 
-1. **Add PAT Token to Repository Secrets:**
-   - Go to repository Settings → Secrets and variables → Actions
-   - Add secret: `PAT_TOKEN` with your GitHub token
+The script targets two pairs of HTML comment markers in `README.md`:
 
-2. **Enable Repository Permissions:**
-   - Go to repository Settings → Actions → General
-   - Enable "Read and write permissions"
-   - Check "Allow GitHub Actions to create and approve pull requests"
+```
+<!-- GOALS:START -->
+...auto-generated content...
+<!-- GOALS:END -->
 
-3. **Commit and push** all files to GitHub
+<!-- UPDATED:START -->
+...auto-generated timestamp...
+<!-- UPDATED:END -->
+```
 
-## 🎯 **Expected Results**
+Everything between each marker pair is replaced on every run.
 
-Your README will automatically update with:
-- Latest 3 repositories sorted by last push date
-- Clean format without icons
-- Proper time formatting ("Updated today", "a day ago", etc.)
-- Only shows descriptions when available
+## Setup (One-Time)
 
-## 📋 **Manual Usage**
+1. **Repository permissions** — Settings → Actions → General:
+   - Enable *"Read and write permissions"*
+   - Check *"Allow GitHub Actions to create and approve pull requests"*
+
+2. **(Optional) PAT token** for higher API limits:
+   - Create a fine-grained token with **Contents: Read & Write** on this repo
+   - Add it as a repository secret named `PAT_TOKEN`
+
+3. **Push to GitHub** — the workflows will trigger automatically.
+
+## Local Usage
 
 ```bash
 # Windows
 update_readme.bat
 
-# Or run Python directly
+# Any OS
+python update_readme.py
+
+# With a token (optional — avoids 60 req/hr limit)
+set GITHUB_TOKEN=ghp_xxx   &:: Windows
+export GITHUB_TOKEN=ghp_xxx  # macOS/Linux
 python update_readme.py
 ```
 
-Your README will stay perfectly up-to-date with your latest work! 🎉
+## Troubleshooting
+
+| Problem | Fix |
+|---------|-----|
+| Rate-limit errors | Add a `PAT_TOKEN` secret (see Setup step 2) |
+| "Markers not found" | Ensure `<!-- GOALS:START -->` / `<!-- GOALS:END -->` exist in README.md |
+| Snake SVG broken / 404 | Run the Snake workflow manually once to create the `output` branch |
+| Workflow doesn't trigger | Check Actions are enabled in repo Settings |
