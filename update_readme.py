@@ -120,7 +120,9 @@ class GitHubAPI:
 
         for attempt in range(1, MAX_RETRIES + 1):
             try:
+                log.info("GET %s (attempt %d/%d)", endpoint, attempt, MAX_RETRIES)
                 resp = self.session.get(url, params=params, timeout=30)
+                log.info("Response: %d (%d bytes)", resp.status_code, len(resp.content))
 
                 if resp.status_code == 200:
                     return resp.json()
@@ -284,9 +286,15 @@ def update_section(
 def main() -> int:
     """Entry point — returns 0 on success, 1 on failure."""
     log.info("README Updater starting for %s", GITHUB_USERNAME)
+    log.info("Python %s on %s", sys.version, sys.platform)
 
     # Resolve token (GitHub Actions injects GITHUB_TOKEN; PAT_TOKEN is manual)
-    token = os.environ.get("PAT_TOKEN") or os.environ.get("GITHUB_TOKEN")
+    pat = os.environ.get("PAT_TOKEN", "")
+    gh = os.environ.get("GITHUB_TOKEN", "")
+    log.info("PAT_TOKEN: %s, GITHUB_TOKEN: %s",
+             f"{pat[:4]}…" if len(pat) > 4 else "(empty)",
+             f"{gh[:4]}…" if len(gh) > 4 else "(empty)")
+    token = pat or gh or None
 
     api = GitHubAPI(token=token)
     repos = api.get_latest_repos(GITHUB_USERNAME)
@@ -320,4 +328,8 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except Exception as exc:
+        log.exception("Unhandled exception: %s", exc)
+        sys.exit(1)
