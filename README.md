@@ -24,13 +24,14 @@ Currently working on my latest projects:
 **Personal Website**  
 *Updated today*
 
-### [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)
+### [Project_Falcon](https://github.com/KonetiBalaji/Project_Falcon)
 *Updated today*
 
-### [Kwalifai_Suman](https://github.com/KonetiBalaji/Kwalifai_Suman)
+### [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)
 *Updated a day ago*
 
 
+---
 ---
 ---
 ---
