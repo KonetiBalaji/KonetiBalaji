@@ -36,15 +36,14 @@ fun_fact: "Code is like baking — mix the right ingredients, follow the process
 Currently working on my latest projects:
 
 **🔭 [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)**  
-GitHub profile with automated README updates  
-`Python` · *Updated today*
+`Python` · *Updated today* · ⭐ 1
 
-**🔭 [neuralroulette-ai](https://github.com/KonetiBalaji/neuralroulette-ai)**  
-A smart AI system that analyzes real-time roulette data from Pragmatic Play Live Casino  
-`Python` · *Updated 10 days ago*
+**🔭 [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)**  
+Personal Website  
+`TypeScript` · *Updated today* · ⭐ 1
 
-**🔭 [FullStack_Lab7](https://github.com/KonetiBalaji/FullStack_Lab7)**  
-*Updated 18 days ago*
+**🔭 [Project_Falcon](https://github.com/KonetiBalaji/Project_Falcon)**  
+`TypeScript` · *Updated today*
 
 <!-- GOALS:END -->
 
@@ -209,5 +208,5 @@ A smart AI system that analyzes real-time roulette data from Pragmatic Play Live
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 <!-- UPDATED:START -->
-<div align="center"><sub>🤖 Auto-updated on February 08, 2026 at 00:00 UTC</sub></div>
+<div align="center"><sub>🤖 Auto-updated on February 08, 2026 at 08:55 UTC</sub></div>
 <!-- UPDATED:END -->

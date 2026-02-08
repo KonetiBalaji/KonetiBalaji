@@ -140,7 +140,9 @@ class GitHubAPI:
                 else:
                     body = resp.text
                     try:
-                        body = resp.json().get("message", body)
+                        data = resp.json()
+                        if isinstance(data, dict):
+                            body = data.get("message", body)
                     except (ValueError, KeyError):
                         pass
                     log.error("API error %s: %s", resp.status_code, body)

@@ -4,10 +4,10 @@ on:
   push:
     branches: [main, master]
   schedule:
-    - cron: "0 6 * * *"          # Daily backup at 6 AM UTC
+    - cron: "0 6 * * *"
   repository_dispatch:
     types: [update-readme]
-  workflow_dispatch:                # Manual trigger from Actions tab
+  workflow_dispatch:
 
 concurrency:
   group: readme-update
@@ -24,8 +24,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -44,20 +42,15 @@ jobs:
 
       - name: Commit & push changes
         run: |
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           if git diff --quiet README.md; then
-            echo "✅ README is already up to date — nothing to commit"
+            echo "README is already up to date"
           else
             git add README.md
-            git commit -m "🤖 Auto-update README with latest repositories
-
-          - Updated Goals & Focus with latest ${{ env.REPOS_COUNT || '3' }} repos
-          - Refreshed last-updated timestamp
-          - Triggered by: ${{ github.event_name }}"
-            git remote set-url origin \
-              "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+            git commit -m "Auto-update README with latest repositories"
+            git remote set-url origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
             git push origin "${{ github.ref_name }}"
-            echo "✅ README updated and pushed"
+            echo "README updated and pushed"
           fi
