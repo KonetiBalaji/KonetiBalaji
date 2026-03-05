@@ -21,6 +21,8 @@ from typing import Optional
 
 import requests
 
+from validator import ReadmeValidator
+
 # ---------------------------------------------------------------------------
 # Windows encoding fix (emoji support in terminals)
 # ---------------------------------------------------------------------------
@@ -292,8 +294,8 @@ def main() -> int:
     pat = os.environ.get("PAT_TOKEN", "")
     gh = os.environ.get("GITHUB_TOKEN", "")
     log.info("PAT_TOKEN: %s, GITHUB_TOKEN: %s",
-             f"{pat[:4]}…" if len(pat) > 4 else "(empty)",
-             f"{gh[:4]}…" if len(gh) > 4 else "(empty)")
+             "(set)" if pat else "(empty)",
+             "(set)" if gh else "(empty)")
     token = pat or gh or None
 
     api = GitHubAPI(token=token)
@@ -313,6 +315,14 @@ def main() -> int:
             content = fh.read()
     except FileNotFoundError:
         log.error("%s not found", README_PATH)
+        return 1
+
+    # Validate required markers before updating
+    validation = ReadmeValidator().validate_markers(content)
+    if not validation.success:
+        for err in validation.errors:
+            log.error("Validation: %s", err)
+        log.error("README validation failed — aborting")
         return 1
 
     # Update dynamic sections
