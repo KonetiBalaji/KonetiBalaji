@@ -38,12 +38,11 @@ Currently working on my latest projects:
 **🔭 [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)**  
 `Python` · *Updated today* · ⭐ 1
 
-**🔭 [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)**  
-Personal Website  
-`TypeScript` · *Updated today* · ⭐ 1
+**🔭 [Prompt-Crash-Test-Lab](https://github.com/KonetiBalaji/Prompt-Crash-Test-Lab)**  
+*Updated yesterday*
 
-**🔭 [Project_Falcon](https://github.com/KonetiBalaji/Project_Falcon)**  
-`TypeScript` · *Updated today*
+**🔭 [RAG-Benchmark-with-Explainability](https://github.com/KonetiBalaji/RAG-Benchmark-with-Explainability)**  
+`Python` · *Updated 2 days ago* · ⭐ 1
 
 <!-- GOALS:END -->
 
@@ -208,5 +207,5 @@ Personal Website
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 <!-- UPDATED:START -->
-<div align="center"><sub>🤖 Auto-updated on February 08, 2026 at 08:55 UTC</sub></div>
+<div align="center"><sub>🤖 Auto-updated on March 05, 2026 at 01:05 UTC</sub></div>
 <!-- UPDATED:END -->
