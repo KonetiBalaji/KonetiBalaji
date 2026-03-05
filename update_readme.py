@@ -138,6 +138,10 @@ class GitHubAPI:
                         remaining,
                         reset_ts,
                     )
+                # Bad credentials — drop auth and retry unauthenticated
+                elif resp.status_code == 401 and "Authorization" in self.session.headers:
+                    log.warning("401 Bad credentials — retrying without authentication")
+                    del self.session.headers["Authorization"]
                 # Server error — retryable
                 elif resp.status_code >= 500:
                     log.warning("Server error %s on attempt %d", resp.status_code, attempt)
@@ -296,7 +300,11 @@ def main() -> int:
     log.info("PAT_TOKEN: %s, GITHUB_TOKEN: %s",
              "(set)" if pat else "(empty)",
              "(set)" if gh else "(empty)")
-    token = pat or gh or None
+    # In CI, prefer GITHUB_TOKEN so the automatic token is used (avoids 401 from stale PAT)
+    if os.environ.get("GITHUB_ACTIONS") == "true":
+        token = gh or pat or None
+    else:
+        token = pat or gh or None
 
     api = GitHubAPI(token=token)
     repos = api.get_latest_repos(GITHUB_USERNAME)
