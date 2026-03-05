@@ -44,6 +44,18 @@ jobs:
           PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: python update_readme.py
 
+      - name: Validate README markers
+        run: |
+          python -c "
+          from validator import ReadmeValidator
+          with open('README.md', encoding='utf-8') as f:
+              content = f.read()
+          r = ReadmeValidator().validate_markers(content)
+          if not r.success:
+              for e in r.errors:
+                  print(e)
+              exit(1)
+          "
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
