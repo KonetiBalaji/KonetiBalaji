@@ -38,11 +38,12 @@ Currently working on my latest projects:
 **🔭 [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)**  
 `Python` · *Updated today* · ⭐ 1
 
-**🔭 [Prompt-Crash-Test-Lab](https://github.com/KonetiBalaji/Prompt-Crash-Test-Lab)**  
-*Updated 2 days ago*
+**🔭 [Scrapling](https://github.com/KonetiBalaji/Scrapling)**  
+🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-sca…  
+*Updated today*
 
-**🔭 [RAG-Benchmark-with-Explainability](https://github.com/KonetiBalaji/RAG-Benchmark-with-Explainability)**  
-`Python` · *Updated 2 days ago* · ⭐ 1
+**🔭 [Prompt-Crash-Test-Lab](https://github.com/KonetiBalaji/Prompt-Crash-Test-Lab)**  
+*Updated 3 days ago*
 
 <!-- GOALS:END -->
 
@@ -207,5 +208,5 @@ Currently working on my latest projects:
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 <!-- UPDATED:START -->
-<div align="center"><sub>🤖 Auto-updated on March 05, 2026 at 06:51 UTC</sub></div>
+<div align="center"><sub>🤖 Auto-updated on March 06, 2026 at 06:46 UTC</sub></div>
 <!-- UPDATED:END -->
