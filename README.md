@@ -1,7 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Balaji%20Koneti&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Scientist%20%7C%20AI/ML%20Engineer%20%7C%20Full-Stack%20Developer&descAlignY=52&descSize=18" width="100%"/>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=2E9CDB&center=true&vCenter=true&repeat=true&width=540&lines=Building+AI+Systems+That+Matter+%F0%9F%A7%A0;Turning+Data+Into+Actionable+Intelligence+%F0%9F%93%8A;Open+Source+Contributor+%26+Lifelong+Learner+%F0%9F%8C%B1" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=1000&color=2E9CDB&center=true&vCenter=true&repeat=true&width=640&lines=Building+AI+Systems+That+Matter+%F0%9F%A7%A0;Turning+Data+Into+Actionable+Intelligence+%F0%9F%93%8A;Open+Source+Contributor+%26+Lifelong+Learner+%F0%9F%8C%B1" alt="Typing SVG" />
 </div>
 
 <div align="center">
