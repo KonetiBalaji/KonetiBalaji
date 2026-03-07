@@ -25,8 +25,9 @@ from validator import ReadmeValidator
 
 # ---------------------------------------------------------------------------
 # Windows encoding fix (emoji support in terminals)
+# Only apply when running as main script, not when imported (breaks pytest)
 # ---------------------------------------------------------------------------
-if sys.platform == "win32":
+if sys.platform == "win32" and __name__ == "__main__":
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
 # ---------------------------------------------------------------------------
@@ -138,10 +139,11 @@ class GitHubAPI:
                         remaining,
                         reset_ts,
                     )
-                # Bad credentials — drop auth and retry unauthenticated
+                # Bad credentials — drop auth and retry unauthenticated immediately
                 elif resp.status_code == 401 and "Authorization" in self.session.headers:
                     log.warning("401 Bad credentials — retrying without authentication")
                     del self.session.headers["Authorization"]
+                    continue
                 # Server error — retryable
                 elif resp.status_code >= 500:
                     log.warning("Server error %s on attempt %d", resp.status_code, attempt)
