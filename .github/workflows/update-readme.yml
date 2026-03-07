@@ -3,8 +3,10 @@ name: Update README with Latest Repos
 on:
   push:
     branches: [main, master]
+    paths-ignore:
+      - 'README.md'
   schedule:
-    - cron: "0 6 * * *"
+    - cron: "0 */4 * * *"
   repository_dispatch:
     types: [update-readme]
   workflow_dispatch:
@@ -87,3 +89,11 @@ jobs:
       - name: No changes notification
         if: steps.changes.outputs.has_changes == 'false'
         run: echo "README is already up to date"
+
+  # Trigger this workflow from any other repo by adding this step to their workflow:
+  # - name: Trigger profile README update
+  #   run: |
+  #     gh api repos/KonetiBalaji/KonetiBalaji/dispatches \
+  #       -f event_type=update-readme
+  #   env:
+  #     GH_TOKEN: ${{ secrets.PAT_TOKEN }}

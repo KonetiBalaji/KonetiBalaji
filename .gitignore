@@ -28,3 +28,6 @@ desktop.ini
 # Environment / secrets
 .env
 *.env.local
+
+# IDE / project tools
+.kiro/
