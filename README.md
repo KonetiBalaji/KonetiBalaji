@@ -35,10 +35,10 @@ fun_fact: "Code is like baking — mix the right ingredients, follow the process
 <!-- GOALS:START -->
 Currently working on my latest projects:
 
-**🔭 [RAG-Benchmark-with-Explainability](https://github.com/KonetiBalaji/RAG-Benchmark-with-Explainability)**  
+**🔭 [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)**  
 `Python` · *Updated today* · ⭐ 1
 
-**🔭 [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)**  
+**🔭 [RAG-Benchmark-with-Explainability](https://github.com/KonetiBalaji/RAG-Benchmark-with-Explainability)**  
 `Python` · *Updated today* · ⭐ 1
 
 **🔭 [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)**  
@@ -208,5 +208,5 @@ Personal Website
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 <!-- UPDATED:START -->
-<div align="center"><sub>🤖 Auto-updated on March 14, 2026 at 20:31 UTC</sub></div>
+<div align="center"><sub>🤖 Auto-updated on March 15, 2026 at 02:38 UTC</sub></div>
 <!-- UPDATED:END -->
