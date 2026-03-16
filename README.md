@@ -35,15 +35,14 @@ fun_fact: "Code is like baking — mix the right ingredients, follow the process
 <!-- GOALS:START -->
 Currently working on my latest projects:
 
+**🔭 [InterviewAssistant_Website](https://github.com/KonetiBalaji/InterviewAssistant_Website)**  
+`HTML` · *Updated today*
+
 **🔭 [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)**  
 `Python` · *Updated today* · ⭐ 1
 
 **🔭 [RAG-Benchmark-with-Explainability](https://github.com/KonetiBalaji/RAG-Benchmark-with-Explainability)**  
-`Python` · *Updated yesterday* · ⭐ 1
-
-**🔭 [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)**  
-Personal Website  
-`TypeScript` · *Updated 1 week ago* · ⭐ 1
+`Python` · *Updated 2 days ago* · ⭐ 1
 
 <!-- GOALS:END -->
 
@@ -208,5 +207,5 @@ Personal Website
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 <!-- UPDATED:START -->
-<div align="center"><sub>🤖 Auto-updated on March 16, 2026 at 17:04 UTC</sub></div>
+<div align="center"><sub>🤖 Auto-updated on March 16, 2026 at 20:41 UTC</sub></div>
 <!-- UPDATED:END -->
