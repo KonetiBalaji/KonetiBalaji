@@ -35,15 +35,15 @@ fun_fact: "Code is like baking — mix the right ingredients, follow the process
 <!-- GOALS:START -->
 Currently working on my latest projects:
 
-**🔭 [Clinical-RAG-Evaluation-Framework](https://github.com/KonetiBalaji/Clinical-RAG-Evaluation-Framework)**  
-ClinRAG-Eval: A Safety-Centered Evaluation Framework for Clinical Retrieval-Augmented Generation  
-*Updated today*
-
-**🔭 [Clinical-RAG-Evaluation-Framework-for-Healthcare-AI](https://github.com/KonetiBalaji/Clinical-RAG-Evaluation-Framework-for-Healthcare-AI)**  
-*Updated today*
-
 **🔭 [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)**  
 `Python` · *Updated today* · ⭐ 1
+
+**🔭 [Clinical-RAG-Evaluation-Framework-for-Healthcare-AI](https://github.com/KonetiBalaji/Clinical-RAG-Evaluation-Framework-for-Healthcare-AI)**  
+`Python` · *Updated today*
+
+**🔭 [LLM_for_Security_Log_Detection](https://github.com/KonetiBalaji/LLM_for_Security_Log_Detection)**  
+Hybrid security log detection and analysis using LLMs, BERT, and regex. Web & CLI interfaces for …  
+`Python` · *Updated today*
 
 <!-- GOALS:END -->
 
@@ -208,5 +208,5 @@ ClinRAG-Eval: A Safety-Centered Evaluation Framework for Clinical Retrieval-Augm
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 <!-- UPDATED:START -->
-<div align="center"><sub>🤖 Auto-updated on March 17, 2026 at 20:41 UTC</sub></div>
+<div align="center"><sub>🤖 Auto-updated on March 18, 2026 at 02:29 UTC</sub></div>
 <!-- UPDATED:END -->
