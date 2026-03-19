@@ -38,11 +38,11 @@ Currently working on my latest projects:
 **🔭 [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)**  
 `Python` · *Updated today* · ⭐ 1
 
-**🔭 [Clinical-RAG-Evaluation-Framework-for-Healthcare-AI](https://github.com/KonetiBalaji/Clinical-RAG-Evaluation-Framework-for-Healthcare-AI)**  
-`Python` · *Updated today*
+**🔭 [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)**  
+Personal Website  
+`TypeScript` · *Updated today* · ⭐ 1
 
-**🔭 [LLM_for_Security_Log_Detection](https://github.com/KonetiBalaji/LLM_for_Security_Log_Detection)**  
-Hybrid security log detection and analysis using LLMs, BERT, and regex. Web & CLI interfaces for …  
+**🔭 [Clinical-RAG-Evaluation-Framework-for-Healthcare-AI](https://github.com/KonetiBalaji/Clinical-RAG-Evaluation-Framework-for-Healthcare-AI)**  
 `Python` · *Updated yesterday*
 
 <!-- GOALS:END -->
@@ -208,5 +208,5 @@ Hybrid security log detection and analysis using LLMs, BERT, and regex. Web & CL
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 <!-- UPDATED:START -->
-<div align="center"><sub>🤖 Auto-updated on March 18, 2026 at 20:40 UTC</sub></div>
+<div align="center"><sub>🤖 Auto-updated on March 19, 2026 at 02:30 UTC</sub></div>
 <!-- UPDATED:END -->
