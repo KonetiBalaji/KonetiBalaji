@@ -35,15 +35,16 @@ fun_fact: "Code is like baking — mix the right ingredients, follow the process
 <!-- GOALS:START -->
 Currently working on my latest projects:
 
+**🔭 [EasyApplyJobsBot](https://github.com/KonetiBalaji/EasyApplyJobsBot)**  
+LinkedIn Easy Apply Bot - Chrome Extension with AI-powered form filling  
+`JavaScript` · *Updated today*
+
 **🔭 [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)**  
 `Python` · *Updated today* · ⭐ 1
 
 **🔭 [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)**  
 Personal Website  
 `TypeScript` · *Updated 5 days ago* · ⭐ 1
-
-**🔭 [Clinical-RAG-Evaluation-Framework-for-Healthcare-AI](https://github.com/KonetiBalaji/Clinical-RAG-Evaluation-Framework-for-Healthcare-AI)**  
-`Python` · *Updated 6 days ago*
 
 <!-- GOALS:END -->
 
@@ -208,5 +209,5 @@ Personal Website
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 <!-- UPDATED:START -->
-<div align="center"><sub>🤖 Auto-updated on March 24, 2026 at 02:23 UTC</sub></div>
+<div align="center"><sub>🤖 Auto-updated on March 24, 2026 at 05:23 UTC</sub></div>
 <!-- UPDATED:END -->
