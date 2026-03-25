@@ -38,13 +38,11 @@ Currently working on my latest projects:
 **🔭 [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)**  
 `Python` · *Updated today* · ⭐ 1
 
-**🔭 [EasyApplyJobsBot](https://github.com/KonetiBalaji/EasyApplyJobsBot)**  
-LinkedIn Easy Apply Bot - Chrome Extension with AI-powered form filling  
-`JavaScript` · *Updated today*
+**🔭 [Apply_All_Jobs_Pilot](https://github.com/KonetiBalaji/Apply_All_Jobs_Pilot)**  
+`Python` · *Updated today*
 
-**🔭 [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)**  
-Personal Website  
-`TypeScript` · *Updated 5 days ago* · ⭐ 1
+**🔭 [LinkedIn_Bot_Chrome_Extension](https://github.com/KonetiBalaji/LinkedIn_Bot_Chrome_Extension)**  
+`JavaScript` · *Updated today*
 
 <!-- GOALS:END -->
 
@@ -209,5 +207,5 @@ Personal Website
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 <!-- UPDATED:START -->
-<div align="center"><sub>🤖 Auto-updated on March 24, 2026 at 20:44 UTC</sub></div>
+<div align="center"><sub>🤖 Auto-updated on March 25, 2026 at 02:28 UTC</sub></div>
 <!-- UPDATED:END -->
