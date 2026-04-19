@@ -38,11 +38,12 @@ Currently working on my latest projects:
 **🔭 [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)**  
 `Python` · *Updated today* · ⭐ 1
 
+**🔭 [RecSys](https://github.com/KonetiBalaji/RecSys)**  
+Recommendation system demonstration for serko  
+*Updated today*
+
 **🔭 [C2C](https://github.com/KonetiBalaji/C2C)**  
 *Updated 6 days ago*
-
-**🔭 [Prompt-Crash-Test-Lab](https://github.com/KonetiBalaji/Prompt-Crash-Test-Lab)**  
-`Python` · *Updated 2 weeks ago*
 
 <!-- GOALS:END -->
 
@@ -207,5 +208,5 @@ Currently working on my latest projects:
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 <!-- UPDATED:START -->
-<div align="center"><sub>🤖 Auto-updated on April 19, 2026 at 16:43 UTC</sub></div>
+<div align="center"><sub>🤖 Auto-updated on April 19, 2026 at 20:40 UTC</sub></div>
 <!-- UPDATED:END -->
