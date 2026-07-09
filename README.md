@@ -42,9 +42,9 @@ Currently working on my latest projects:
 Personal Website  
 `TypeScript` · *Updated today* · ⭐ 1
 
-**🔭 [pavankumar-portfolio](https://github.com/KonetiBalaji/pavankumar-portfolio)**  
-Portfolio website for Pavankumar Chilukoti — Data Scientist · AI/ML Engineer  
-`HTML` · *Updated 2 months ago* · ⭐ 1 · 🍴 1
+**🔭 [Vibe-Trading](https://github.com/KonetiBalaji/Vibe-Trading)**  
+"Vibe-Trading: Your Personal Trading Agent"  
+*Updated yesterday*
 
 <!-- GOALS:END -->
 
@@ -209,5 +209,5 @@ Portfolio website for Pavankumar Chilukoti — Data Scientist · AI/ML Engineer
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 <!-- UPDATED:START -->
-<div align="center"><sub>🤖 Auto-updated on July 09, 2026 at 03:29 UTC</sub></div>
+<div align="center"><sub>🤖 Auto-updated on July 09, 2026 at 07:37 UTC</sub></div>
 <!-- UPDATED:END -->
