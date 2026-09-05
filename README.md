@@ -35,11 +35,11 @@ fun_fact: "Code is like baking — mix the right ingredients, follow the process
 <!-- GOALS:START -->
 Currently working on my latest projects:
 
-**🔭 [My_Desk_Robo](https://github.com/KonetiBalaji/My_Desk_Robo)**  
-*Updated today*
-
 **🔭 [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)**  
 `Python` · *Updated today* · ⭐ 1
+
+**🔭 [My_Desk_Robo](https://github.com/KonetiBalaji/My_Desk_Robo)**  
+*Updated today*
 
 **🔭 [Balaji_Koneti_Portfolio_TypeScript](https://github.com/KonetiBalaji/Balaji_Koneti_Portfolio_TypeScript)**  
 Personal Website  
@@ -208,5 +208,5 @@ Personal Website
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 <!-- UPDATED:START -->
-<div align="center"><sub>🤖 Auto-updated on September 05, 2026 at 03:28 UTC</sub></div>
+<div align="center"><sub>🤖 Auto-updated on September 05, 2026 at 08:09 UTC</sub></div>
 <!-- UPDATED:END -->
