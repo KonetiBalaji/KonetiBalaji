@@ -38,11 +38,11 @@ Currently working on my latest projects:
 **🔭 [KonetiBalaji](https://github.com/KonetiBalaji/KonetiBalaji)**  
 `Python` · *Updated today* · ⭐ 1
 
-**🔭 [Learn_Linux](https://github.com/KonetiBalaji/Learn_Linux)**  
-*Updated 1 month ago*
+**🔭 [paper_trail_agent](https://github.com/KonetiBalaji/paper_trail_agent)**  
+`Python` · *Updated today*
 
-**🔭 [My_Desk_Robo](https://github.com/KonetiBalaji/My_Desk_Robo)**  
-*Updated 1 month ago*
+**🔭 [Learning_Android_App](https://github.com/KonetiBalaji/Learning_Android_App)**  
+*Updated today*
 
 <!-- GOALS:END -->
 
@@ -207,5 +207,5 @@ Currently working on my latest projects:
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
 <!-- UPDATED:START -->
-<div align="center"><sub>🤖 Auto-updated on October 28, 2026 at 20:50 UTC</sub></div>
+<div align="center"><sub>🤖 Auto-updated on October 29, 2026 at 04:50 UTC</sub></div>
 <!-- UPDATED:END -->
